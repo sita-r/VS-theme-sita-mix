@@ -1,0 +1,151 @@
+{
+    "name": "Sita Mix",
+    "type": "light",
+    "colors": {
+        // Editor colours
+        "editor.background": "#ffffff",                         // Background of the editor
+        "editor.foreground": "#000000",                         // Text colour in the editor    
+        "editor.lineHighlightBackground": "#ffffed",            // Background of the line highlight
+        "editor.selectionForeground": "#000000",                // Colour of the selected text
+        "editor.selectionBackground": "#a8ccff",                // Background of the selected text
+        "editor.selectionHighlightBackground": "#f9c5eed2",     // Background of the selection highlight
+        "editorCursor.foreground": "#000000",                   // Colour of the cursor  
+        "editorIndentGuide.background1": "#dee4d9",             // Background of the indent guide
+        "editorIndentGuide.activeBackground1": "#ee0505",       // Background of the active indent guide
+        "editorWhitespace.foreground": "#ffffff00",             // Colour of the whitespace characters
+       
+        // Bottom: Panel, terminal, debug console, etc.
+        "terminal.background": "#171722",               // Background of the terminal
+        "terminal.foreground": "#f3cbee",               // Text colour in the terminal
+        "panel.background": "#dfe9fb",                  // Background of the panel
+        //"panel.foreground": "#000000",                    // Text colour in the panel
+        "panel.border": "#858181",                      // Border of the panel
+        "panelTitle.activeBorder": "#ce42b7",           // Border of the active panel title
+        "panelTitle.activeForeground": "#2c2b2b",       // Text colour of the active panel title
+        "panelTitle.inactiveForeground": "#858181",     // Text colour of the inactive panel title
+        "debugConsole.infoForeground": "#ffffff",       // Text colour of the info in the debug console
+        "debugConsole.errorForeground": "#ff0000",      // Text colour of the error in the debug console
+        "debugConsole.warningForeground": "#fe8426",    // Text colour of the warning in the debug console
+        
+        "icon.foreground": "#858181",                   // Colour of the icons in the panel
+        
+
+        // Input - Search/Filter field colours
+        "input.background": "#cdd5e5c1",                  // Background of the input field
+        "input.placeholderForeground": "#1d1b2b7a",       // Placeholder text colour in the input field
+        "input.foreground": "#000000",                  // Text colour in the input field
+        "input.border": "#8581819b",                    // Border colour of the input field
+        "inputOption.activeBackground": "#f9c5eed2",    // Background of the active input option
+        "inputOption.activeBorder": "#ce42b7",         // Border colour of the active input option
+        "inputOption.activeForeground": "#000000",     // Text colour of the active input option
+        "inputOption.hoverBackground": "#e71fbcd2",   // Background of the hovered input option
+        "inputValidation.errorBackground": "#ff0000",   // Background of the error input validation
+        // can't use on mac "inputIcon.foreground": "#727070",                // Colour of the input icon
+
+        // Dropdown colours
+        "dropdown.background": "#fac7f181",         // Background of the dropdown menu
+        "dropdown.foreground": "#727070",         // Text colour in the dropdown
+        "dropdown.border": "#8581819b",             // Border colour of the dropdown
+        "dropdown.listBackground": "#ffe0f9",     // Background of the dropdown list (optional)
+
+        // Activity bar, side bar, status bar, etc.
+        "activityBar.background": "#141425",        // Background of the activity bar
+        "activityBar.foreground": "#def1ff",        // Text colour of the activity bar
+        
+        "sideBar.background": "#20202ea9",          // Background of the side bar
+        "sideBar.border": "#8d818b",                // Border of the side bar
+        "sideBar.foreground": "#ffffffcd",          // Text colour of the side bar
+        
+        "statusBar.background": "#ffbef1",              // Background of the status bar
+        "statusBar.foreground": "#ffffff",              // Text colour of the status bar
+        "statusBar.noFolderBackground": "#5d1046",      // Background when no folder is open
+        "statusBar.debuggingBackground": "#ffb175",     // Background when debugging
+        
+        // Tab colours
+        "tab.activeBackground": "#111119a9",        // Background of the active tab
+        "tab.inactiveBackground": "#1111192d",      // Background of inactive tabs
+        "tab.activeForeground": "#ffe1fd",          // Text colour of the active tab
+        "tab.inactiveForeground": "#888888",        // Text colour of inactive tabs
+        "tab.border": "#8d818b",                    // Border between tabs
+        "tab.hoverBackground": "#29292e",           // Background when hovering over a tab
+        "tab.selectedBackground": "#111119",        // Background of the selected tab
+        "tab.hoverBorder": "#db0fb9", 
+        
+        // Path colours
+        "breadcrumb.background": "#111119a9",                   // Background of the breadcrumb
+        "breadcrumb.foreground": "#888888",                     // Text colour of the breadcrumb
+        "breadcrumb.activeSelectionForeground": "#ffe1fd",      // Text colour of the active breadcrumb
+        "breadcrumb.focusForeground": "#ffffff",                // Text colour of the focused breadcrumb
+
+        // Title bar colours
+        "titleBar.activeBackground": "#1c1c1ed8",       // Background when window is focused
+        "titleBar.inactiveBackground": "#3a3a3ed8",     // Background when window is not focused
+        "titleBar.activeForeground": "#ededed",         // Text/icon colour when focused
+        "titleBar.inactiveForeground": "#ededed",       // Text/icon colour when not focused
+        
+        // Bracket Pairing
+        "editorBracketHighlight.foreground1": "#1e26fd",
+        "editorBracketHighlight.foreground2": "#cb1212",
+        "editorBracketHighlight.foreground3": "#e53970",
+        "editorBracketHighlight.foreground4": "#00bfae",
+        "editorBracketHighlight.foreground5": "#ff6f00",
+        "editorBracketHighlight.foreground6": "#a259c6"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#119f3c",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#1e26fd"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#ec79ab"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#0979b5"
+            }
+        },
+        {
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#37b079"
+            }
+        },
+        {
+            "scope": "entity.name.class",
+            "settings": {
+                "foreground": "#26cead"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#1a9be6"
+            }
+        },
+        {
+            "scope": "storage",
+            "settings": {
+                "foreground": "#1e26fd"
+            }
+        },
+        {
+            "scope": "punctuation",
+            "settings": {
+                "foreground": "#000000ab"
+            }
+        }
+        ]
+    }

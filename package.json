@@ -1,0 +1,21 @@
+{
+  "name": "sita-mix",
+  "displayName": "Sita-Mix",
+  "description": "Light, Dark Terminal, Dark sides",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sita-Mix",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sita-Mix-color-theme.json"
+      }
+    ]
+  }
+}
