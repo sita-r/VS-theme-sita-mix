@@ -5,50 +5,85 @@
         // Editor colours
         "editor.background": "#ffffff",                         // Background of the editor
         "editor.foreground": "#000000",                         // Text colour in the editor    
-        "editor.lineHighlightBackground": "#ffffed",            // Background of the line highlight
+        
+        // Selecting Text colours
+        "editor.lineHighlightBackground": "#e8e8e874",          // Background of the line highlight
         "editor.selectionForeground": "#000000",                // Colour of the selected text
-        "editor.selectionBackground": "#a8ccff",                // Background of the selected text
-        "editor.selectionHighlightBackground": "#f9c5eed2",     // Background of the selection highlight
-        "editorCursor.foreground": "#000000",                   // Colour of the cursor  
+        "editor.selectionBackground": "#fff700dd",              // Background of the selected text  
+
+        "editor.selectionHighlightBackground": "#ff00c83f",     // Background of the selection highlight
+        "editor.wordHighlightBackground": "#fff7003f",          // Background of the word highlight - when you stand on it
+        "editor.wordHighlightTextBackground": "#fff7003f",      // Background of the word highlight text - when you stand on it
+        "editor.wordHighlightStrongBackground": "#ffa7a73c",    // Background of the strong word highlight
+        "editor.wordHighlightStrongBorder": "#ff1e00e0",        // Border of the strongword highlight
+        "editor.findMatchBackground": "#c5e2f9d2",              // Background of the find match
+        "editor.hoverHighlightBackground": "#c5e2f9d2",         // Background of the hover highlight
+       
         "editorIndentGuide.background1": "#dee4d9",             // Background of the indent guide
         "editorIndentGuide.activeBackground1": "#ee0505",       // Background of the active indent guide
         "editorWhitespace.foreground": "#ffffff00",             // Colour of the whitespace characters
        
+
+        // Peekview Editor colours (Option F12 on mac)
+        "peekViewEditor.background": "#fff7003f",                   // Background of the peek view editor
+        "peekViewEditorGutter.background": "#fff7003f",             // Background of the peek view editor gutter
+        "peekViewEditor.matchHighlightBackground": "#fe00003c",     // Background of the match highlight in the peek view editor
+        "peekViewEditor.matchHighlightBorder": "#ff1e0076",         // Border of the match highlight in the peek view editor
+        "peekView.border": "#e51313",                                 // Border of the peek view
+
+        "peekViewResult.background": "#fff94e54",                   // Background of the peek view result
+        "peekViewResult.selectionBackground": "#e0f1ffd2",          // Background of the selected peek view result
+        "peekViewResult.selectionForeground": "#000000",            // Text colour of the selected peek view result
+        "peekViewResult.matchHighlightBackground": "#5b5b5b00",     // Background of the match highlight in the peek view result
+        "peekViewResult.lineForeground": "#000000",                 // Text colour of the line in the peek view result
+        "peekViewResult.fileForeground": "#ffffff",                 // Text colour of the file in the peek view result
+
+        "peekViewEditorStickyScroll.background": "#eee60e3f",         // Background of the sticky scroll in the peek view editor
+
+        "peekViewTitle.background": "#fff70082",                  // Background of the peek view title
+        "peekViewTitleDescription.foreground": "#0000007c",        // Text colour of the peek view title description
+        "peekViewTitleLabel.foreground": "#d91010",              // Text colour of the peek view title label
+
+        // Hover Widget Colours
+        "editorHoverWidget.background": "#f9c5eeed",            // Background of the hover widget
+        "editorHoverWidget.foreground": "#000000",              // Text colour of the hover widget
+
         // Bottom: Panel, terminal, debug console, etc.
         "terminal.background": "#171722",               // Background of the terminal
         "terminal.foreground": "#f3cbee",               // Text colour in the terminal
+        
         "panel.background": "#dfe9fb",                  // Background of the panel
-        //"panel.foreground": "#000000",                    // Text colour in the panel
+        "panel.foreground": "#000000",                    // Text colour in the panel
         "panel.border": "#858181",                      // Border of the panel
         "panelTitle.activeBorder": "#ce42b7",           // Border of the active panel title
         "panelTitle.activeForeground": "#2c2b2b",       // Text colour of the active panel title
         "panelTitle.inactiveForeground": "#858181",     // Text colour of the inactive panel title
+        
         "debugConsole.infoForeground": "#ffffff",       // Text colour of the info in the debug console
         "debugConsole.errorForeground": "#ff0000",      // Text colour of the error in the debug console
         "debugConsole.warningForeground": "#fe8426",    // Text colour of the warning in the debug console
         
         "icon.foreground": "#858181",                   // Colour of the icons in the panel
-        
 
         // Input - Search/Filter field colours
-        "input.background": "#cdd5e5c1",                  // Background of the input field
-        "input.placeholderForeground": "#1d1b2b7a",       // Placeholder text colour in the input field
+        "input.background": "#e3ecfd8f",                // Background of the input field
+        "input.placeholderForeground": "#1d1b2b87",     // Placeholder text colour in the input field
         "input.foreground": "#000000",                  // Text colour in the input field
         "input.border": "#8581819b",                    // Border colour of the input field
         "inputOption.activeBackground": "#f9c5eed2",    // Background of the active input option
-        "inputOption.activeBorder": "#ce42b7",         // Border colour of the active input option
-        "inputOption.activeForeground": "#000000",     // Text colour of the active input option
-        "inputOption.hoverBackground": "#e71fbcd2",   // Background of the hovered input option
+        "inputOption.activeBorder": "#ce42b7",          // Border colour of the active input option
+        "inputOption.activeForeground": "#000000",      // Text colour of the active input option
+        "inputOption.hoverBackground": "#e71fbcd2",     // Background of the hovered input option
         "inputValidation.errorBackground": "#ff0000",   // Background of the error input validation
         // can't use on mac "inputIcon.foreground": "#727070",                // Colour of the input icon
 
         // Dropdown colours
         "dropdown.background": "#fac7f181",         // Background of the dropdown menu
-        "dropdown.foreground": "#727070",         // Text colour in the dropdown
+        "dropdown.foreground": "#727070",           // Text colour in the dropdown
         "dropdown.border": "#8581819b",             // Border colour of the dropdown
-        "dropdown.listBackground": "#ffe0f9",     // Background of the dropdown list (optional)
+        "dropdown.listBackground": "#ffe0f9",       // Background of the dropdown list (optional)
 
-        // Activity bar, side bar, status bar, etc.
+        // Left: Activity bar, side bar, status bar, etc.
         "activityBar.background": "#141425",        // Background of the activity bar
         "activityBar.foreground": "#def1ff",        // Text colour of the activity bar
         
