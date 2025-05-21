@@ -7,53 +7,57 @@
         "editor.foreground": "#000000",                         // Text colour in the editor    
         
         // Selecting Text colours
-        "editor.lineHighlightBackground": "#e8e8e874",          // Background of the line highlight
         "editor.selectionForeground": "#000000",                // Colour of the selected text
-        "editor.selectionBackground": "#fff700dd",              // Background of the selected text  
+        "editor.selectionBackground": "#dceeff",                // Background of the selected text  
+        "editor.lineHighlightBackground": "#b3dafe1f",          // Background of the line highlight
 
-        "editor.selectionHighlightBackground": "#ff00c83f",     // Background of the selection highlight
-        "editor.wordHighlightBackground": "#fff7003f",          // Background of the word highlight - when you stand on it
-        "editor.wordHighlightTextBackground": "#fff7003f",      // Background of the word highlight text - when you stand on it
-        "editor.wordHighlightStrongBackground": "#ffa7a73c",    // Background of the strong word highlight
-        "editor.wordHighlightStrongBorder": "#ff1e00e0",        // Border of the strongword highlight
-        "editor.findMatchBackground": "#c5e2f9d2",              // Background of the find match
+        "editor.selectionHighlightBackground": "#fffc3afd",     // Soft lavender, semi-opaque
+        "editor.wordHighlightBackground": "#646b730b",          // Slightly more opaque lavender
+        "editor.wordHighlightTextBackground": "#646b730f",      // Match above
+        "editor.wordHighlightBorder": "#0184ff41",               // Border of the word highlight
+        "editor.wordHighlightTextBorder": "#0184ff7a",           // Border of the word highlight text
+
+        "editor.wordHighlightStrongBackground": "#fcffa73c",    // Background of the strong word highlight
+        "editor.wordHighlightStrongBorder": "#ff1e009d",        // Border of the strongword highlight
+        
+        "editor.findMatchBackground": "#e9e634",                // Background of the find match
+        "editor.findMatchHighlightBackground": "#e9e63484",     // Background of the find match highlight
         "editor.hoverHighlightBackground": "#c5e2f9d2",         // Background of the hover highlight
        
         "editorIndentGuide.background1": "#dee4d9",             // Background of the indent guide
         "editorIndentGuide.activeBackground1": "#ee0505",       // Background of the active indent guide
         "editorWhitespace.foreground": "#ffffff00",             // Colour of the whitespace characters
        
+        "editorCursor.foreground": "#000000",                   // Cursor color
 
         // Peekview Editor colours (Option F12 on mac)
-        "peekViewEditor.background": "#fff7003f",                   // Background of the peek view editor
-        "peekViewEditorGutter.background": "#fff7003f",             // Background of the peek view editor gutter
-        "peekViewEditor.matchHighlightBackground": "#fe00003c",     // Background of the match highlight in the peek view editor
-        "peekViewEditor.matchHighlightBorder": "#ff1e0076",         // Border of the match highlight in the peek view editor
-        "peekView.border": "#e51313",                                 // Border of the peek view
+        "peekViewTitle.background": "#fff70043",                    // Background of the peek view title
+        "peekViewTitleDescription.foreground": "#0000007c",         // Text colour of the peek view title description
+        "peekViewTitleLabel.foreground": "#1021d9a0",                 // Text colour of the peek view title label
+        "peekViewEditorStickyScroll.background": "#fbf9c6ef",       // Background of the sticky scroll in the peek view editor
 
-        "peekViewResult.background": "#fff94e54",                   // Background of the peek view result
+        "peekViewEditor.background": "#fff7001d",                   // Background of the peek view editor
+        "peekViewEditorGutter.background": "#fff7001d",             // Background of the peek view editor gutter
+        "peekViewEditor.matchHighlightBackground": "#fef600cb",     // Background of the match highlight in the peek view editor
+        "peekViewEditor.matchHighlightBorder": "#ff1e0000",         // Border of the match highlight in the peek view editor
+        "peekView.border": "#1021d9a0",                               // Border of the peek view
+        
+        "peekViewResult.background": "#fffb8145",                   // Background of the peek view result
         "peekViewResult.selectionBackground": "#e0f1ffd2",          // Background of the selected peek view result
         "peekViewResult.selectionForeground": "#000000",            // Text colour of the selected peek view result
         "peekViewResult.matchHighlightBackground": "#5b5b5b00",     // Background of the match highlight in the peek view result
         "peekViewResult.lineForeground": "#000000",                 // Text colour of the line in the peek view result
         "peekViewResult.fileForeground": "#ffffff",                 // Text colour of the file in the peek view result
-
-        "peekViewEditorStickyScroll.background": "#eee60e3f",         // Background of the sticky scroll in the peek view editor
-
-        "peekViewTitle.background": "#fff70082",                  // Background of the peek view title
-        "peekViewTitleDescription.foreground": "#0000007c",        // Text colour of the peek view title description
-        "peekViewTitleLabel.foreground": "#d91010",              // Text colour of the peek view title label
-
+        
         // Hover Widget Colours
-        "editorHoverWidget.background": "#f9c5eeed",            // Background of the hover widget
+        "editorHoverWidget.background": "#faeff8ed",            // Background of the hover widget
         "editorHoverWidget.foreground": "#000000",              // Text colour of the hover widget
 
         // Bottom: Panel, terminal, debug console, etc.
         "terminal.background": "#171722",               // Background of the terminal
         "terminal.foreground": "#f3cbee",               // Text colour in the terminal
-        
         "panel.background": "#dfe9fb",                  // Background of the panel
-        "panel.foreground": "#000000",                    // Text colour in the panel
+        // xmac "panel.foreground": "#000000",                  // Text colour in the panel
         "panel.border": "#858181",                      // Border of the panel
         "panelTitle.activeBorder": "#ce42b7",           // Border of the active panel title
         "panelTitle.activeForeground": "#2c2b2b",       // Text colour of the active panel title
@@ -66,16 +70,16 @@
         "icon.foreground": "#858181",                   // Colour of the icons in the panel
 
         // Input - Search/Filter field colours
-        "input.background": "#e3ecfd8f",                // Background of the input field
+        "input.background": "#dfe9fb8c",                // Background of the input field
         "input.placeholderForeground": "#1d1b2b87",     // Placeholder text colour in the input field
         "input.foreground": "#000000",                  // Text colour in the input field
-        "input.border": "#8581819b",                    // Border colour of the input field
+        "input.border": "#6966689b",                    // Border colour of the input field
         "inputOption.activeBackground": "#f9c5eed2",    // Background of the active input option
         "inputOption.activeBorder": "#ce42b7",          // Border colour of the active input option
         "inputOption.activeForeground": "#000000",      // Text colour of the active input option
         "inputOption.hoverBackground": "#e71fbcd2",     // Background of the hovered input option
         "inputValidation.errorBackground": "#ff0000",   // Background of the error input validation
-        // can't use on mac "inputIcon.foreground": "#727070",                // Colour of the input icon
+        // xmac "inputIcon.foreground": "#727070",        // Colour of the input icon
 
         // Dropdown colours
         "dropdown.background": "#fac7f181",         // Background of the dropdown menu
@@ -83,8 +87,8 @@
         "dropdown.border": "#8581819b",             // Border colour of the dropdown
         "dropdown.listBackground": "#ffe0f9",       // Background of the dropdown list (optional)
 
-        // Left: Activity bar, side bar, status bar, etc.
-        "activityBar.background": "#141425",        // Background of the activity bar
+        // Left Side: Activity bar, side bar, status bar, etc.
+        "activityBar.background": "#0f0f24",        // Background of the activity bar
         "activityBar.foreground": "#def1ff",        // Text colour of the activity bar
         
         "sideBar.background": "#20202ea9",          // Background of the side bar
@@ -99,12 +103,12 @@
         // Tab colours
         "tab.activeBackground": "#111119a9",        // Background of the active tab
         "tab.inactiveBackground": "#1111192d",      // Background of inactive tabs
-        "tab.activeForeground": "#ffe1fd",          // Text colour of the active tab
+        "tab.activeForeground": "#d4e0f7",          // Text colour of the active tab
         "tab.inactiveForeground": "#888888",        // Text colour of inactive tabs
         "tab.border": "#8d818b",                    // Border between tabs
         "tab.hoverBackground": "#29292e",           // Background when hovering over a tab
         "tab.selectedBackground": "#111119",        // Background of the selected tab
-        "tab.hoverBorder": "#db0fb9", 
+        "tab.hoverBorder": "#db0fb9",               // Border when hovering over a tab
         
         // Path colours
         "breadcrumb.background": "#111119a9",                   // Background of the breadcrumb
@@ -118,6 +122,28 @@
         "titleBar.activeForeground": "#ededed",         // Text/icon colour when focused
         "titleBar.inactiveForeground": "#ededed",       // Text/icon colour when not focused
         
+        // Minimap colours
+        "minimap.background": "#ffffff",                // Background of the minimap
+        "minimap.selectionHighlight": "#46a8feee",      // Background of the selection highlight in the minimap
+        "minimap.findMatchHighlight": "#e9e634fc",      // Background of the find match highlight in the minimap
+        "minimap.errorHighlight": "#ff0000",            // Background of the error highlight in the minimap
+        "minimap.warningHighlight": "#ffa77b",          // Background of the warning highlight in the minimap
+        "minimapGutter.addedBackground": "#00ff00",     // Background of the added lines in the minimap
+        "minimapGutter.modifiedBackground": "#fa962c",  // Background of the modified lines in the minimap
+        "minimapGutter.deletedBackground": "#ff0000",   // Background of the deleted lines in the minimap
+        
+        // Notification colours
+        "notificationCenter.border": "#858181",                 // Border of the notification center
+        "notificationCenterHeader.background": "#fde8f9e3",       // Background of the notification center header
+        "notificationCenterHeader.foreground": "#00000097",     // Text colour of the notification center header
+        "notificationsErrorIcon.foreground": "#ff0000",         // Text colour of the error icon in notifications
+
+        // Command / Quick Input colours
+        "quickInput.background": "#3a3a3ed8",               // Command palette background
+        "quickInput.foreground": "#ffffff",                 // Command palette text
+        "quickInputList.focusBackground": "#cde4ffee",        //
+        "quickInputList.focusForeground": "#000000",        //
+        
         // Bracket Pairing
         "editorBracketHighlight.foreground1": "#1e26fd",
         "editorBracketHighlight.foreground2": "#cb1212",
@@ -130,7 +156,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#119f3c",
+                "foreground": "#0f8633",
                 "fontStyle": "italic"
             }
         },
