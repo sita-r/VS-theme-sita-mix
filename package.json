@@ -1,7 +1,8 @@
 {
   "name": "sita-mix",
   "displayName": "Sita-Mix",
-  "description": "Light, Dark Terminal, Dark sides",
+  "description": "Light Editor, Dark Terminal, Dark Debugger, Light Search",
+  "publisher": "sita",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.100.0"
@@ -9,11 +10,28 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sita-r/VS-theme-sita-mix"
+  },
+  "bugs": {
+    "url": "https://github.com/sita-r/VS-theme-sita-mix/issues"
+  },
+  "homepage": "https://github.com/sita-r/VS-theme-sita-mix#readme",
+  "keywords": [
+    "theme",
+    "color theme",
+    "light",
+    "dark",
+    "notebook",
+    "mac"
+  ],
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
         "label": "Sita-Mix",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/Sita-Mix-color-theme.json"
       }
     ]
