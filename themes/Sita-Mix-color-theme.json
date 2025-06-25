@@ -6,7 +6,7 @@
         "editor.background": "#ffffff",                         // Background of the editor
         "editor.foreground": "#000000",                         // Text colour in the editor    
         
-        // Selecting Text colours
+        // Selection Text colours
         "editor.selectionForeground": "#000000",                // Colour of the selected text
         "editor.selectionBackground": "#dceeff",                // Background of the selected text  
         "editor.lineHighlightBackground": "#b3dafe1f",          // Background of the line highlight
@@ -14,8 +14,8 @@
         "editor.selectionHighlightBackground": "#fffc3afd",     // Soft lavender, semi-opaque
         "editor.wordHighlightBackground": "#646b730b",          // Slightly more opaque lavender
         "editor.wordHighlightTextBackground": "#646b730f",      // Match above
-        "editor.wordHighlightBorder": "#0184ff41",               // Border of the word highlight
-        "editor.wordHighlightTextBorder": "#0184ff7a",           // Border of the word highlight text
+        "editor.wordHighlightBorder": "#0184ff41",              // Border of the word highlight
+        "editor.wordHighlightTextBorder": "#0184ff7a",          // Border of the word highlight text
 
         "editor.wordHighlightStrongBackground": "#fcffa73c",    // Background of the strong word highlight
         "editor.wordHighlightStrongBorder": "#ff1e009d",        // Border of the strongword highlight
@@ -33,14 +33,14 @@
         // Peekview Editor colours (Option F12 on mac)
         "peekViewTitle.background": "#fff70043",                    // Background of the peek view title
         "peekViewTitleDescription.foreground": "#0000007c",         // Text colour of the peek view title description
-        "peekViewTitleLabel.foreground": "#1021d9a0",                 // Text colour of the peek view title label
+        "peekViewTitleLabel.foreground": "#1021d9a0",               // Text colour of the peek view title label
         "peekViewEditorStickyScroll.background": "#fbf9c6ef",       // Background of the sticky scroll in the peek view editor
 
         "peekViewEditor.background": "#fff7001d",                   // Background of the peek view editor
         "peekViewEditorGutter.background": "#fff7001d",             // Background of the peek view editor gutter
         "peekViewEditor.matchHighlightBackground": "#fef600cb",     // Background of the match highlight in the peek view editor
         "peekViewEditor.matchHighlightBorder": "#ff1e0000",         // Border of the match highlight in the peek view editor
-        "peekView.border": "#1021d9a0",                               // Border of the peek view
+        "peekView.border": "#1021d9a0",                             // Border of the peek view
         
         "peekViewResult.background": "#fffb8145",                   // Background of the peek view result
         "peekViewResult.selectionBackground": "#e0f1ffd2",          // Background of the selected peek view result
@@ -54,10 +54,10 @@
         "editorHoverWidget.foreground": "#000000",              // Text colour of the hover widget
 
         // Bottom: Panel, terminal, debug console, etc.
-        "terminal.background": "#171722",               // Background of the terminal
+        "terminal.background": "#222232",               // Background of the terminal
         "terminal.foreground": "#f3cbee",               // Text colour in the terminal
-        "panel.background": "#dfe9fb",                  // Background of the panel
-        // xmac "panel.foreground": "#000000",                  // Text colour in the panel
+        "panel.background": "#d9e5fc",                  // Background of the panel
+        // xmac "panel.foreground": "#000000",            // Text colour in the panel
         "panel.border": "#858181",                      // Border of the panel
         "panelTitle.activeBorder": "#ce42b7",           // Border of the active panel title
         "panelTitle.activeForeground": "#2c2b2b",       // Text colour of the active panel title
@@ -67,10 +67,10 @@
         "debugConsole.errorForeground": "#ff0000",      // Text colour of the error in the debug console
         "debugConsole.warningForeground": "#fe8426",    // Text colour of the warning in the debug console
         
-        "icon.foreground": "#858181",                   // Colour of the icons in the panel
+        "icon.foreground": "#999393",                   // Colour of the icons in the panel
 
         // Input - Search/Filter field colours
-        "input.background": "#dfe9fb8c",                // Background of the input field
+        "input.background": "#dfe9fb42",                // Background of the input field
         "input.placeholderForeground": "#1d1b2b87",     // Placeholder text colour in the input field
         "input.foreground": "#000000",                  // Text colour in the input field
         "input.border": "#6966689b",                    // Border colour of the input field
@@ -82,33 +82,33 @@
         // xmac "inputIcon.foreground": "#727070",        // Colour of the input icon
 
         // Dropdown colours
-        "dropdown.background": "#fac7f181",         // Background of the dropdown menu
-        "dropdown.foreground": "#727070",           // Text colour in the dropdown
-        "dropdown.border": "#8581819b",             // Border colour of the dropdown
-        "dropdown.listBackground": "#ffe0f9",       // Background of the dropdown list (optional)
+        "dropdown.background": "#fac7f181",             // Background of the dropdown menu
+        "dropdown.foreground": "#727070",               // Text colour in the dropdown
+        "dropdown.border": "#8581819b",                 // Border colour of the dropdown
+        "dropdown.listBackground": "#ffe0f9",           // Background of the dropdown list (optional)
 
-        // Left Side: Activity bar, side bar, status bar, etc.
-        "activityBar.background": "#0f0f24",        // Background of the activity bar
-        "activityBar.foreground": "#def1ff",        // Text colour of the activity bar
+        // Left Side: Activity bar
+        "activityBar.background": "#161634",            // Background of the activity bar
+        "activityBar.foreground": "#def1ff",            // Text colour of the activity bar
         
-        "sideBar.background": "#20202ea9",          // Background of the side bar
-        "sideBar.border": "#8d818b",                // Border of the side bar
-        "sideBar.foreground": "#ffffffcd",          // Text colour of the side bar
+        "sideBar.background": "#2B2B3B",                // Background of the side bar
+        "sideBar.border": "#8d818b",                    // Border of the side bar
+        "sideBar.foreground": "#ffffffde",              // Text colour of the side bar
         
         "statusBar.background": "#ffbef1",              // Background of the status bar
         "statusBar.foreground": "#ffffff",              // Text colour of the status bar
-        "statusBar.noFolderBackground": "#5d1046",      // Background when no folder is open
+        "statusBar.noFolderBackground": "#2f79ce",      // Background when no folder is open
         "statusBar.debuggingBackground": "#ffb175",     // Background when debugging
         
         // Tab colours
-        "tab.activeBackground": "#111119a9",        // Background of the active tab
-        "tab.inactiveBackground": "#1111192d",      // Background of inactive tabs
-        "tab.activeForeground": "#d4e0f7",          // Text colour of the active tab
-        "tab.inactiveForeground": "#888888",        // Text colour of inactive tabs
-        "tab.border": "#8d818b",                    // Border between tabs
-        "tab.hoverBackground": "#29292e",           // Background when hovering over a tab
-        "tab.selectedBackground": "#111119",        // Background of the selected tab
-        "tab.hoverBorder": "#db0fb9",               // Border when hovering over a tab
+        "tab.activeBackground": "#222232ae",            // Background of the active tab
+        "tab.inactiveBackground": "#2222324a",          // Background of inactive tabs
+        "tab.activeForeground": "#ffffff",              // Text colour of the active tab
+        "tab.inactiveForeground": "#ffffff8d",          // Text colour of inactive tabs
+        "tab.border": "#8d818b",                        // Border between tabs
+        "tab.hoverBackground": "#29292e",               // Background when hovering over a tab
+        "tab.selectedBackground": "#111119",            // Background of the selected tab
+        "tab.hoverBorder": "#db0fb9",                   // Border when hovering over a tab
         
         // Path colours
         "breadcrumb.background": "#111119a9",                   // Background of the breadcrumb
@@ -123,7 +123,7 @@
         "titleBar.inactiveForeground": "#ededed",       // Text/icon colour when not focused
         
         // Minimap colours
-        "minimap.background": "#ffffff",                // Background of the minimap
+        "minimap.background": "#22223208",              // Background of the minimap
         "minimap.selectionHighlight": "#46a8feee",      // Background of the selection highlight in the minimap
         "minimap.findMatchHighlight": "#e9e634fc",      // Background of the find match highlight in the minimap
         "minimap.errorHighlight": "#ff0000",            // Background of the error highlight in the minimap
@@ -134,19 +134,19 @@
         
         // Notification colours
         "notificationCenter.border": "#858181",                 // Border of the notification center
-        "notificationCenterHeader.background": "#fde8f9e3",       // Background of the notification center header
+        "notificationCenterHeader.background": "#fde8f9e3",     // Background of the notification center header
         "notificationCenterHeader.foreground": "#00000097",     // Text colour of the notification center header
         "notificationsErrorIcon.foreground": "#ff0000",         // Text colour of the error icon in notifications
 
         // Command / Quick Input colours
-        "quickInput.background": "#3a3a3ed8",               // Command palette background
-        "quickInput.foreground": "#ffffff",                 // Command palette text
-        "quickInputList.focusBackground": "#cde4ffee",        //
-        "quickInputList.focusForeground": "#000000",        //
+        "quickInput.background": "#3a3a3ed8",                   // Command palette background
+        "quickInput.foreground": "#ffffff",                     // Command palette text
+        "quickInputList.focusBackground": "#cde4ffee",          // Background of the focused command palette item
+        "quickInputList.focusForeground": "#000000",            // Text colour of the focused command palette item
         
         // Bracket Pairing
         "editorBracketHighlight.foreground1": "#1e26fd",
-        "editorBracketHighlight.foreground2": "#cb1212",
+        "editorBracketHighlight.foreground2": "#ff9191",
         "editorBracketHighlight.foreground3": "#e53970",
         "editorBracketHighlight.foreground4": "#00bfae",
         "editorBracketHighlight.foreground5": "#ff6f00",
@@ -169,19 +169,19 @@
         {
             "scope": "string",
             "settings": {
-                "foreground": "#ec79ab"
+                "foreground": "#ec6ea5"
             }
         },
         {
             "scope": "variable",
             "settings": {
-                "foreground": "#0979b5"
+                "foreground": "#1e30a6"
             }
         },
         {
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#37b079"
+                "foreground": "#45942c"
             }
         },
         {
