@@ -31,7 +31,7 @@
     "themes": [
       {
         "label": "Sita-Mix",
-        "uiTheme": "vs",
+        "uiTheme": "vs-dark",
         "path": "./themes/Sita-Mix-color-theme.json"
       }
     ]

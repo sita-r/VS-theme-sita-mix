@@ -30,6 +30,9 @@
        
         "editorCursor.foreground": "#000000",                   // Cursor color
 
+        "textLink.foreground": "#99bcfd",                       // Colour of the text links
+        "textLink.activeForeground": "#99bcfd",                 // Colour of the active text
+
         // Peekview Editor colours (Option F12 on mac)
         "peekViewTitle.background": "#fff70043",                    // Background of the peek view title
         "peekViewTitleDescription.foreground": "#0000007c",         // Text colour of the peek view title description
@@ -82,10 +85,10 @@
         // xmac "inputIcon.foreground": "#727070",        // Colour of the input icon
 
         // Dropdown colours
-        "dropdown.background": "#fac7f181",             // Background of the dropdown menu
+        "dropdown.background": "#dfe9fb96",             // Background of the dropdown menu
         "dropdown.foreground": "#727070",               // Text colour in the dropdown
         "dropdown.border": "#8581819b",                 // Border colour of the dropdown
-        "dropdown.listBackground": "#ffe0f9",           // Background of the dropdown list (optional)
+        "dropdown.listBackground": "#ffe0f9",           // Background of the dropdown list
 
         // Left Side: Activity bar
         "activityBar.background": "#161634",            // Background of the activity bar
@@ -95,7 +98,7 @@
         "sideBar.border": "#8d818b",                    // Border of the side bar
         "sideBar.foreground": "#ffffffde",              // Text colour of the side bar
         
-        "statusBar.background": "#ffbef1",              // Background of the status bar
+        "statusBar.background": "#1c4779",              // Background of the status bar
         "statusBar.foreground": "#ffffff",              // Text colour of the status bar
         "statusBar.noFolderBackground": "#2f79ce",      // Background when no folder is open
         "statusBar.debuggingBackground": "#ffb175",     // Background when debugging
@@ -109,7 +112,10 @@
         "tab.hoverBackground": "#29292e",               // Background when hovering over a tab
         "tab.selectedBackground": "#111119",            // Background of the selected tab
         "tab.hoverBorder": "#db0fb9",                   // Border when hovering over a tab
-        
+        "tab.activeModifiedBorder": "#ff1e008c",        // Border of the active modified tab
+        "tab.inactiveModifiedBorder": "#ff1e008c",      // Border of the inactive modified tab
+
+
         // Path colours
         "breadcrumb.background": "#111119a9",                   // Background of the breadcrumb
         "breadcrumb.foreground": "#888888",                     // Text colour of the breadcrumb
@@ -123,7 +129,7 @@
         "titleBar.inactiveForeground": "#ededed",       // Text/icon colour when not focused
         
         // Minimap colours
-        "minimap.background": "#22223208",              // Background of the minimap
+        "minimap.background": "#f0eeeedd",              // Background of the minimap
         "minimap.selectionHighlight": "#46a8feee",      // Background of the selection highlight in the minimap
         "minimap.findMatchHighlight": "#e9e634fc",      // Background of the find match highlight in the minimap
         "minimap.errorHighlight": "#ff0000",            // Background of the error highlight in the minimap
