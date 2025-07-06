@@ -3,35 +3,35 @@
     "type": "light",
     "colors": {
         // Editor colours
-        "editor.background": "#ffffff",                         // Background of the editor
-        "editor.foreground": "#000000",                         // Text colour in the editor    
+        "editor.background": "#ffffff",                             // Background of the editor
+        "editor.foreground": "#000000",                             // Text colour in the editor    
         
         // Selection Text colours
-        "editor.selectionForeground": "#000000",                // Colour of the selected text
-        "editor.selectionBackground": "#dceeff",                // Background of the selected text  
-        "editor.lineHighlightBackground": "#b3dafe1f",          // Background of the line highlight
+        "editor.selectionForeground": "#000000",                    // Colour of the selected text
+        "editor.selectionBackground": "#dceeff",                    // Background of the selected text  
+        "editor.lineHighlightBackground": "#b3dafe1f",              // Background of the line highlight
 
-        "editor.selectionHighlightBackground": "#fffc3afd",     // Soft lavender, semi-opaque
-        "editor.wordHighlightBackground": "#646b730b",          // Slightly more opaque lavender
-        "editor.wordHighlightTextBackground": "#646b730f",      // Match above
-        "editor.wordHighlightBorder": "#0184ff41",              // Border of the word highlight
-        "editor.wordHighlightTextBorder": "#0184ff7a",          // Border of the word highlight text
+        "editor.selectionHighlightBackground": "#fffc3afd",         // Soft lavender, semi-opaque
+        "editor.wordHighlightBackground": "#646b730b",              // Slightly more opaque lavender
+        "editor.wordHighlightTextBackground": "#646b730f",          // Match above
+        "editor.wordHighlightBorder": "#0184ff41",                  // Border of the word highlight
+        "editor.wordHighlightTextBorder": "#0184ff7a",              // Border of the word highlight text
 
-        "editor.wordHighlightStrongBackground": "#fcffa73c",    // Background of the strong word highlight
-        "editor.wordHighlightStrongBorder": "#ff1e009d",        // Border of the strongword highlight
+        "editor.wordHighlightStrongBackground": "#fcffa73c",        // Background of the strong word highlight
+        "editor.wordHighlightStrongBorder": "#ff1e009d",            // Border of the strongword highlight
         
-        "editor.findMatchBackground": "#e9e634",                // Background of the find match
-        "editor.findMatchHighlightBackground": "#e9e63484",     // Background of the find match highlight
-        "editor.hoverHighlightBackground": "#c5e2f9d2",         // Background of the hover highlight
+        "editor.findMatchBackground": "#e9e634",                    // Background of the find match
+        "editor.findMatchHighlightBackground": "#e9e63484",         // Background of the find match highlight
+        "editor.hoverHighlightBackground": "#c5e2f9d2",             // Background of the hover highlight
        
-        "editorIndentGuide.background1": "#dee4d9",             // Background of the indent guide
-        "editorIndentGuide.activeBackground1": "#ee0505",       // Background of the active indent guide
-        "editorWhitespace.foreground": "#ffffff00",             // Colour of the whitespace characters
+        "editorIndentGuide.background1": "#dee4d9",                 // Background of the indent guide
+        "editorIndentGuide.activeBackground1": "#ee0505",           // Background of the active indent guide
+        "editorWhitespace.foreground": "#ffffff00",                 // Colour of the whitespace characters
        
-        "editorCursor.foreground": "#000000",                   // Cursor color
+        "editorCursor.foreground": "#000000",                       // Cursor color
 
-        "textLink.foreground": "#99bcfd",                       // Colour of the text links
-        "textLink.activeForeground": "#99bcfd",                 // Colour of the active text
+        "textLink.foreground": "#99bcfd",                           // Colour of the text links
+        "textLink.activeForeground": "#99bcfd",                     // Colour of the active text
 
         // Peekview Editor colours (Option F12 on mac)
         "peekViewTitle.background": "#fff70043",                    // Background of the peek view title
@@ -53,8 +53,8 @@
         "peekViewResult.fileForeground": "#ffffff",                 // Text colour of the file in the peek view result
         
         // Hover Widget Colours
-        "editorHoverWidget.background": "#faeff8ed",            // Background of the hover widget
-        "editorHoverWidget.foreground": "#000000",              // Text colour of the hover widget
+        "editorHoverWidget.background": "#faeff8ed",                // Background of the hover widget
+        "editorHoverWidget.foreground": "#000000",                  // Text colour of the hover widget
 
         // Bottom: Panel, terminal, debug console, etc.
         "terminal.background": "#222232",               // Background of the terminal
@@ -115,7 +115,6 @@
         "tab.activeModifiedBorder": "#ff1e008c",        // Border of the active modified tab
         "tab.inactiveModifiedBorder": "#ff1e008c",      // Border of the inactive modified tab
 
-
         // Path colours
         "breadcrumb.background": "#111119a9",                   // Background of the breadcrumb
         "breadcrumb.foreground": "#888888",                     // Text colour of the breadcrumb
@@ -144,6 +143,9 @@
         "notificationCenterHeader.foreground": "#00000097",     // Text colour of the notification center header
         "notificationsErrorIcon.foreground": "#ff0000",         // Text colour of the error icon in notifications
 
+        // Welcome Page & Chat
+        "welcomePage.background": "#222232",                   // Background of the welcome page
+        
         // Command / Quick Input colours
         "quickInput.background": "#3a3a3ed8",                   // Command palette background
         "quickInput.foreground": "#ffffff",                     // Command palette text
