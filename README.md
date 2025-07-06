@@ -33,4 +33,4 @@ From the VS Code Marketplace:
 
 **License**
 
-MIT License
+This project is licensed under the MIT License
